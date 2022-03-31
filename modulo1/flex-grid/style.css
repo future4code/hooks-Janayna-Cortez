@@ -1,0 +1,113 @@
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+}
+
+
+
+/*            CABEÇALHO                 */
+
+header{
+    display: grid;
+    background-color: mediumvioletred;
+    grid-template-columns: 33px 1fr 88px;
+    height: 45px;
+    align-items: center;
+    padding: 0 25px;
+    font-family: Roboto;
+    font-size: 13px;
+}
+
+header img{
+    width: 18px;
+}
+
+button{
+    width: 75px;
+    padding-top: 4px;
+    padding-bottom: 4px;
+    border-radius: 6px;
+    border-width: 1px;
+    font-size: 16px;
+    font-family: Roboto;
+}
+
+
+
+
+
+/*                MAIN                   */
+
+main{
+    display: grid;
+    grid-template-columns: 280px 1fr;
+    height: 100vh;
+}
+
+
+
+/*              MENU LATERAL                */
+
+#lateral-menu{
+    display: flex;
+    flex-direction: column;
+    background-color: #f2d0e0;
+    padding: 23px;
+    line-height: 35px;
+}
+
+#lateral-menu h4{
+    display: inline;
+    padding-left: 10px;
+}
+
+nav img{
+    width: 18px;
+}
+
+
+
+/*                PRODUTOS                 */
+
+.Bolos{
+    display: grid;
+    grid-template-columns: auto auto auto auto;
+    align-content:flex-start;
+}
+
+section img{
+    width: 240px;
+}
+
+.Bolo{
+    max-width: 240px;
+    text-align: center;
+    box-shadow: 2px 2px 5px 1px darkgray;
+    margin: 5px;
+}
+
+.Bolos h1{
+    font-size: 20px;
+    font-family: Roboto;
+}
+
+.Bolos p{
+    font-size: 15px;
+    font-family: Roboto;
+    }
+
+/*                RODAPÉ                  */
+
+footer{
+    display: grid;
+    background-color: mediumvioletred;
+    height: 40px;
+    align-items: center;
+    text-align: center;
+    font-size: 9px;
+}
