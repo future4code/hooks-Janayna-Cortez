@@ -1,0 +1,20 @@
+p {
+    color:rgb(7, 102, 19);
+    background-color: aquamarine;
+    display: run-in;
+    padding: 50px; 
+    width: 500px;
+
+}
+
+div{
+color: red;
+display: pink;
+}
+
+td {
+
+    color: blue;
+    width: 180px;
+    padding-left: 8%;
+}

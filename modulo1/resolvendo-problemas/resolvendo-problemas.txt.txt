@@ -1,0 +1,8 @@
+Passos fundamentais para resolvermos problemas :
+
+Prestar muita atenção no enunciado, verificar o que realmente é preciso fazer.
+Buscar o máximo de informações para começar a desenvover.
+Colocar em pratico, mesmo que de forma desosdenada todos os nossos pensamentos e depois ir montado de forma lógica.
+Não ter medo de usar papel e caneta se preciso for para fazer um fluxograma .
+Colocar tudo na ordem para fazer funciona, sempre testando.
+E quando conseguir fazer rodar ir acrescentando as melhorias.  
