@@ -1,0 +1,215 @@
+/***                GERAL                   ***/
+
+
+    * {
+        margin: 0;
+        padding: 0;
+    }
+    
+    header{
+        position: sticky;
+        top: 0;
+        width: 100%;
+        padding-top: 25px;
+        border-radius: 5px;
+        background-color: rgb(255, 255, 255);
+        z-index: 1;
+    }
+    
+    
+    header{
+        display: inline-table;
+        background-color: rgb(169, 245, 169);
+        grid-template-columns: 33px 1fr 88px;
+        height: 45px;
+        align-items: center;
+        padding:  25px;
+        font-family: Roboto;
+        font-size: 13px;
+    }
+    
+    header img{
+        width: 80px;
+    }
+    
+    button{
+        width: 80px;
+        padding-top: 4px;
+        padding-bottom: 4px;
+        border-radius: 6px;
+        border-width: 10px;
+        font-size: 16px;
+        font-family: Roboto;
+        
+    }
+    
+    
+       
+    .apresentaçao h1, h2{
+        padding: px 15px;
+        margin-right: 10px;
+        text-align: center;
+    }
+    
+    .apresentaçao h1{
+        font: 60px Roboto;
+        font-variant: normal;
+        text-align-last: center;
+    }
+    
+    .barra{
+        margin-top: -10px;
+    }
+    
+  
+    .apresentaçao img{
+        width: 270px;
+        border-radius: 250px;
+    }
+    
+    .descrição{
+        background-color: rgb(94, 197, 94);
+        border-radius: 20px;
+    
+            }
+    
+    .descrição h2{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        font: 25px Roboto;
+        text-align: justify; 
+                margin-inline: 20px;
+        line-height: 40px;
+    }
+    
+    .pessoal{
+        display: block;
+        padding-right: 30%;
+    }
+    
+    .pessoal h1{
+        padding-top: 80px;
+        text-align: center;
+        font: 30px Roboto;
+        font-style: italic;
+    }
+    
+    .pessoal p{
+        text-align: justify;
+        padding-top: 60px;
+        padding-left: 130px;
+        font: 25px Roboto;
+        line-height: 40px;
+        padding-right: 25px;
+    }
+    
+    .conhecimento{
+        display: block;
+        padding-left: 3%;
+        padding-right: 8%;
+    }
+    
+    .conhecimento h1{
+        padding-top: 80px;
+        text-align: center;
+        font: 30px Roboto;
+        font-style: italic;
+    }
+    
+    .conhecimento p{
+        text-align: justify;
+        padding-top: 60px;
+        padding-left: 25px;
+        padding-right: 130px;
+        font: 25px Roboto;
+        line-height: 40px;
+        padding-right: 25px;
+    }
+    
+    .mensagem{
+        display: block;
+        text-align: center;
+        background-color: rgb(213, 233, 255);
+        padding-top: 80px;
+        padding-bottom: 80px;
+        padding-left: 130px;
+        padding-right: 130px;
+        margin-top: 80px;
+        border-radius: 8px;
+    }
+    
+    .mensagem p{
+        text-align: left;
+        font: 25px Roboto;
+        padding-bottom: 50px;
+    }
+    
+    .mensagem form{
+        font: 20px Roboto;
+        text-align: left;
+        padding-bottom: 50px;
+        width: 80%;
+    }
+    
+    fieldset{
+        border:none   
+    }
+    
+     
+       
+    .enviar{
+        float: right;
+        font: 19px Roboto;
+        padding: 7px 15px;
+        margin-right: 800px;
+        cursor: pointer;
+        transition: background .3s;
+        border-style: solid;
+        border-width: 2px;
+        border-radius: 10px;
+        border-color:rgb(60, 110, 163);
+        background:rgb(183, 216, 250);
+    }
+    
+    .enviar:active{
+        color: rgb(12, 12, 161);
+    }
+    
+    .enviar:hover{
+        background-color: rgb(176, 208, 243);
+    }
+     
+       
+    .rodape{
+        border-radius: 2px;
+        text-align: center;
+        padding-top: 10px;
+        padding-bottom: 10px;
+    }
+    
+    .midias img{
+        margin-top: 5px;
+        width: 40px;
+        margin-left: 40px;
+        text-align: center;
+    }
+
+    .projetos{
+        background-color: rgb(94, 197, 94);
+        border-radius: 20px;
+    
+    }
+
+    .projetos h1{
+        margin-top: 100px;
+        margin-bottom: 100px;
+        padding-top: 100px;
+        padding-bottom: 100px;
+        font: 25px Roboto;
+        text-align: justify; 
+                margin-inline: 20px;
+        line-height: 40px;
+    }
+    
