@@ -1,4 +1,4 @@
-/***                GERAL                   ***/
+/***              Index           ***/
 
 
     * {
@@ -15,19 +15,7 @@
         background-color: rgb(255, 255, 255);
         z-index: 1;
     }
-    
-    
-    header{
-        display: inline-table;
-        background-color: rgb(169, 245, 169);
-        grid-template-columns: 33px 1fr 88px;
-        height: 45px;
-        align-items: center;
-        padding:  25px;
-        font-family: Roboto;
-        font-size: 13px;
-    }
-    
+        
     header img{
         width: 80px;
     }
@@ -42,9 +30,7 @@
         font-family: Roboto;
         
     }
-    
-    
-       
+              
     .apresentaçao h1, h2{
         padding: px 15px;
         margin-right: 10px;
@@ -157,8 +143,7 @@
         border:none   
     }
     
-     
-       
+            
     .enviar{
         float: right;
         font: 19px Roboto;
@@ -196,20 +181,30 @@
         text-align: center;
     }
 
+
+/***   pagina projetos  ***/
+
+
     .projetos{
-        background-color: rgb(94, 197, 94);
-        border-radius: 20px;
+        background-color: rgb(108, 236, 236);
+        border-radius: 40px;
     
     }
 
     .projetos h1{
         margin-top: 100px;
-        margin-bottom: 100px;
-        padding-top: 100px;
-        padding-bottom: 100px;
-        font: 25px Roboto;
+        margin-bottom: 10px;
+        padding-top: 10px;
+        padding-bottom: 10px;
+        font: 35px Roboto;
         text-align: justify; 
-                margin-inline: 20px;
-        line-height: 40px;
+                margin-inline: 200px;
+        line-height: 60px;
     }
     
+    .link{
+        margin-top: 5px;
+        width: 400px;
+        margin-left: 400px;
+        text-align: center;
+    }
