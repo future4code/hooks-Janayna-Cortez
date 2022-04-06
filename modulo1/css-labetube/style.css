@@ -1,0 +1,85 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    display: grid;
+    height: 100vh;
+    grid-template-rows: 20px 1fr 50px;
+    align-items: flex-start;
+    background-image: radial-gradient(circle, rgb(64, 185, 155), rgb(216, 216, 216), rgb(83, 80, 80));
+}
+
+header{
+    background-image: linear-gradient(rgb(247, 248, 248), rgb(167, 167, 167), rgb(255, 255, 255));
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    height: 90px;
+    padding: 0 30px;
+}
+
+.tituto-cabecalho{
+    color: rgb(50, 58, 55);
+    text-decoration-thickness: none;
+}
+
+#input-busca{
+    padding: 7px;
+    border: 1px solid white;
+}
+
+main{
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    gap: 20px;
+    padding: 60px;
+    margin: 90PX;
+    
+}
+
+footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    background-color: rgb(201, 192, 192);
+    background-image: linear-gradient(rgb(247, 248, 248), rgb(167, 167, 167), rgb(255, 255, 255));
+    display: flex;
+}
+
+.imagem-video{
+    width: 100%;
+    max-width: 400px;
+}
+
+.container-imagens{
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    box-shadow: 2px 2px 5px rgb(209, 245, 212);
+    background-color: rgb(202, 233, 225);
+    width: 100%;
+    height: 100%;
+    max-width: 600PX;
+    border: 2PX solid black;
+}
+
+.container-imagens:hover{
+    transform: scale(1.1);
+    transition: .5s ease-in-out;
+}
+
+/* Pagina videos */
+
+.video{
+    display: flex;
+    flex-direction: column;
+    max-width: 1000px;
+    padding: 50px;
+    margin: auto;
+    width: 100%;
+}
+
