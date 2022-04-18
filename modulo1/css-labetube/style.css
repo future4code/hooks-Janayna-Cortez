@@ -11,6 +11,20 @@ body{
     background-image: radial-gradient(circle, rgb(64, 185, 155), rgb(216, 216, 216), rgb(83, 80, 80));
 }
 
+body::-webkit-scrollbar {
+    width: 20px;              
+  }
+  
+  body::-webkit-scrollbar-track {
+    background: rgb(165, 175, 171);        
+  }
+  
+  body::-webkit-scrollbar-thumb {
+    background-color: rgb(129, 233, 146);   
+    border-radius: 20px;       
+    border: 3px solid rgb(161, 219, 159); 
+  }
+
 header{
     background-image: linear-gradient(rgb(247, 248, 248), rgb(167, 167, 167), rgb(255, 255, 255));
     display: flex;
@@ -81,5 +95,14 @@ footer{
     padding: 50px;
     margin: auto;
     width: 100%;
+}
+
+@media screen and (max-device-width : 480px) {
+    
+    main {
+        grid-template-columns: 1fr;
+        grid-template-rows: 10fr;
+        background-color: rgb(81, 119, 247);
+    }
 }
 
