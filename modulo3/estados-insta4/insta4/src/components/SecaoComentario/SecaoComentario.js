@@ -10,16 +10,17 @@ const CommentContainer = styled.div`
 const InputComentario = styled.input`
     width: 100%;
     margin-right: 5px;
+	background: gray;
 `
 
 export class SecaoComentario extends Component {
 	state = {
-
+            coment: "imputUser"                  
 	}
 
 	onChangeComentario = (event) => {
-		this.setState({comentario: event.target.value});
-		console.log(this.state.comentario)
+		console.log(event.target.value)
+		this.setState({inputUser: event.target.value})
 	}
 
 	render() {
