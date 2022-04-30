@@ -17,7 +17,7 @@ const BotaoNewPost = styled.button`
   width: 35px;
   height: 35px;
   margin: 10px;
-  background-color: white;
+  background-color: blue;
 `
 
 const NewPostContainer = styled.div`
@@ -36,6 +36,7 @@ const BotaoEnviar = styled.button`
   font-size: large;
   margin: 10px;
   background-color: white;
+  
 `
 
 class App extends React.Component {
