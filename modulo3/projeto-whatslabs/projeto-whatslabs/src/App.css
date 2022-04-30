@@ -1,0 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Roboto:ital@1&display=swap');
+*{
+    margin: 0;
+    padding: 0;
+    font-family: 'Roboto', sans-serif;
+}
+
+.principal{
+    display: flex;
+    justify-content: center;
+    background-color: #f4f3f7;
+}
+
+.main{
+    display: flex;
+    flex-direction: column;
+    border: 8px solid rgb(59, 90, 54);
+    background-color:  #c3f1da;
+    position: relative;
+    align-items: center;
+    bottom: 0%;
+
+}
+
+.mensagens{
+    width: 60rem;
+    height: 53rem;
+    border: 60px solid #2b460c;
+}
+
+.inputes{
+    display: flex;
+    width: 500px;
+    padding-bottom: 10px;
+  
+}
+
+#botao-usuario{
+    width: 120px;
+    margin-right: 6px;
+    height: 36px;
+    color:rgb(248, 244, 247);
+    background-color: #6e7b8594;
+    font-size: 15px;
+}
+
+#botao-mensagem{
+    width: 300px;
+    margin-right: 6px;
+    height: 36px;
+    color:rgb(240, 231, 238);
+    background-color: #6c77818e;
+    font-weight: bolder;
+  
+}
+
+#botao-enviar{
+    width: 90px;
+    height: 36px;
+    font-weight: bolder;
+    color: white;
+    background-color: #33383b;
+    }
+
+#botao-enviar:hover{
+    cursor: copy;
+}
+
+.chat-geral{
+    height: 50px;
+    width: 200px;
+    margin: 10px;
+    padding: 10px;
+    color:rgb(14, 1, 1);
+    border: 2px solid #17251f;
+    border-bottom-left-radius: 20px;
+    background-color: #a37fd1f1;
+}
