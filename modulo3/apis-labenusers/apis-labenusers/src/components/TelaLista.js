@@ -13,7 +13,7 @@ const CardUsuario = styled.div`
 
 export default class TelaLista extends React.Component {
   state = {
-    lista: [],
+    listaUsuarios: [],
   };
 
   componentDidMount() {
@@ -24,7 +24,7 @@ export default class TelaLista extends React.Component {
     const url = "https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users" 
     axios.get(url, {
         headers: {
-            Authorization: "hooks-Janayna-Cortez" 
+            Authorization: "janayna-cortez-hooks" 
         }
     })  
     .then((response) => {
@@ -40,7 +40,7 @@ export default class TelaLista extends React.Component {
     const url = `https://us-central1-labenu-apis.cloudfunctions.net/labenusers/users/${id}`
     axios.delete(url, {
         headers: {
-            Authorization: "hooks-Janayna-Cortez"
+            Authorization: "janayna-cortez-hooks"
         }
     })
     .then((response) => {
