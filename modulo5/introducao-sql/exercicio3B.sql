@@ -1,0 +1,1 @@
+select  id as identifier, name from Funcionarios;
