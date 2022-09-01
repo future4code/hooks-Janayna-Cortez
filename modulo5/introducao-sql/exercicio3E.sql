@@ -1,0 +1,1 @@
+select * from Funcionarios where name not like  "%r%" and email like "%u%"
