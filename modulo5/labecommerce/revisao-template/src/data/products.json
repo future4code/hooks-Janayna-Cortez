@@ -1,0 +1,20 @@
+[
+	{
+		"id" : "9i1211s34-f838-09k87-9e06-5456k32dwr1355",
+		"name" : "Notebook Acer Aspire 3",
+		"price" : 2500,
+		"image_url" : "https://a-static.mlcdn.com.br/1500x1500/notebook-acer-aspire-3-a315-56-3090-intel-core-i3-8gb-256gb-ssd-156-led-windows-10/magazineluiza/226497400/2e6ac51f99fba60f470dbb751257a3a0.jpg"
+	},
+	{
+		"id" : "5a7e728a-3afa-47d6-850d-98as2314d98kj7",
+		"name" : "MacBook Air 2017",
+		"price" : 7000,
+		"image_url" : "https://i.picsum.photos/id/0/5616/3744.jpg?hmac=3GAAioiQziMGEtLbfrdbcoenXoWAW-zlyEAMkfEdBzQ"
+	},
+	{
+		"id" : "3jfj45352-234d-123a-80ad-923ds3445fe22",
+		"name" : "Cama Madrid Casal",
+		"price" : 2450,
+		"image_url" : "https://a-static.mlcdn.com.br/1500x1500/cama-casal-madri-espresso-moveis-canion/madeiramadeira-openapi/352175/68815986d6a904c1ff0935989483625f.jpg"
+	}
+] 

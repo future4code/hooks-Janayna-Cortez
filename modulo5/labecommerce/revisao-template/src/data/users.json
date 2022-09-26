@@ -1,0 +1,33 @@
+[
+	{
+		"id" : "0a4147ad-30dd-4547-9e35-94e655d02f13",
+		"name" : "Camila",
+		"email" : "Camila@gmail.com",
+		"password" : "$2a$12$pcwQNPILKqJPtBOe4eHfeOc6L2kEs6n57IMiToJ6WJrIEj5zRz6wa"
+	},
+	{
+		"id" : "4d3bc362-f838-43d6-9e06-5f3883873f74",
+		"name" : "Julio",
+		"email" : "julio@gmail.com",
+		"password" : "$2a$12$p5LXq11CjvbSB9XYfoGUn./nRGFiYR7Y.zEuw1i7JUUCXn.5S3Qxq"
+	},
+	{
+		"id" : "62f8edd5-c522-44c3-92a7-bd3b6303465d",
+		"name" : "Michael Scott",
+		"email" : "michael@gmail.com",
+		"password" : "$2a$12$zeA2ptIrGbR5UYjbp.nbAuHgXDnDxV9EqL6TTnGHVcv/vYy3B0rEa"
+	},
+	{
+		"id" : "c2e885f7-281a-4f49-89fe-9f6d50b8ea6e",
+		"name" : "Severo",
+		"email" : "severo@gmail.com",
+		"password" : "$2a$12$SFW2lh6mitErocrQ9H7ghuSoRUc3cyk./hQPvi8SF3gpd.kSUlKZe"
+	},
+
+	{
+		"id" : "5f43cfb5-f15d-4baf-a631-f92b32be3859",
+		"name" : "Ana",
+		"email" : "ana@gmail.com",
+		"password" : "$2a$12$wJ1D0EtT0m5CEzwSW4akYOVYoaC.kA8VOSutMMij1vrNhxfDVZxQq"
+	}
+]

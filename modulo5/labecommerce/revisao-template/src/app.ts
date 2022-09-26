@@ -10,7 +10,7 @@ app.use(cors())
 
 
 // Função que faz o servidor escutar as requisições vindas da porta definida.
-const server = app.listen(process.env.PORT || 3000, () => {
+const server = app.listen(process.env.PORT || 3003, () => {
     if (server) {
        const address = server.address() as AddressInfo;
        console.log(`Server tá on em http://localhost:${address.port}`);

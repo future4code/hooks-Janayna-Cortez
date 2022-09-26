@@ -16,8 +16,8 @@ export type Product = {
 // Type da compra
 export type Purchase = {
     id: string,
-    userId: string,
-    productId: string,
-    quantity: number,
-    totalPrice: number
+    user_id: string,
+    product_id: string,
+    quantity: string,
+    total_price: number,
 }
