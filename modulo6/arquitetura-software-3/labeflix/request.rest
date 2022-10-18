@@ -1,0 +1,13 @@
+POST http://localhost:3003/user Content-Type: application/json
+
+{
+"name": "Kiko", "email": "kiko@email.coma", "password": "123456"
+}
+
+###
+
+POST http://localhost:3003/movie Content-Type: application/json
+
+{
+"title": "Titanic", "description": "A huge ship that sinks.", "durationInMinutes": 184, "yearOfRelease": 1997
+}
