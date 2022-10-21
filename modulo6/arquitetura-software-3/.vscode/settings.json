@@ -1,0 +1,18 @@
+{
+    "sqltools.connections": [
+        {
+            "mysqlOptions": {
+                "authProtocol": "default"
+            },
+            "previewLimit": 50,
+            "server": "localhost",
+            "port": 3303,
+            "driver": "MySQL",
+            "database": " 35.226.146.116",
+            "group": "hooks-4313387-janayna-cortez ",
+            "name": "4313387-janayna-cortez",
+            "username": "4313387-janayna-cortez",
+            "password": "mHdJnLh5fXEBXPglMKRy"
+        }
+    ]
+}
